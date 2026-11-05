@@ -1,0 +1,18 @@
+@file,1,Xbox DJ Port
+CFXParameterCH1,,KnobSlider,B00A,,,,,,,,,,Fast,Deck 1 CFX Knob (Sol Analog Sol Yari)
+CFXParameterCH2,,KnobSlider,B00C,,,,,,,,,,Fast,Deck 2 CFX Knob (Sol Analog Sag Yari)
+CFXOn,,Button,9048,,,,,9048,,,,,Fast;Blink=1000;Priority=50;,CFX On/Off (LB Dub Echo / RB Noise)
+CFXSelect,,Button,904A,,,,,904A,,,,,Fast;Blink=1000;Priority=50;,CFX Select Next (Asagi -> LB Dub Echo)
+CFXSelectBack,,Button,904B,,,,,904B,,,,,Fast;Blink=1000;Priority=50;,CFX Select Back (Yukari -> RB Noise)
+FX1-1,,KnobSlider,B00B,,,,,,,,,,Fast,Deck 1 Beat FX Depth (Sag Analog Sol Yari)
+FX2-1,,KnobSlider,B00D,,,,,,,,,,Fast,Deck 2 Beat FX Depth (Sag Analog Sag Yari)
+FX1-1On,,Button,9047,,,,,9047,,,,,Fast;Blink=1000;Priority=50;,Menu Tusu / FX1-1 On (Toggle)
+FX2-1On,,Button,904D,,,,,904D,,,,,Fast;Blink=1000;Priority=50;,Menu Tusu / FX2-1 On (Toggle)
+ActivePartVocal,,DdjSxPad,,9042,,,,,9042,,,,,Stems Vocal (Deck 1)
+ActivePartInst,,DdjSxPad,,9044,,,,,9044,,,,,Stems Inst (Deck 1)
+ActivePartDrums,,DdjSxPad,,9043,,,,,9043,,,,,Stems Drums (Deck 1)
+ActivePartMuteSolo,,Button,9049,,,,,9049,,,,,Fast;Blink=1000;Priority=50;,Stems Mute/Solo
+PAD1_PadFx1,,DdjSxPad,,903C,,,,,903C,,,,,PadFX 1 (1/4 Roll)
+PAD2_PadFx1,,DdjSxPad,,903D,,,,,903D,,,,,PadFX 2 (1/2 Roll)
+PAD3_PadFx1,,DdjSxPad,,903E,,,,,903E,,,,,PadFX 3 (Reverb Freeze)
+PAD4_PadFx1,,DdjSxPad,,903F,,,,,903F,,,,,PadFX 4 (Spiral/Trans)

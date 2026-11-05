@@ -1,0 +1,6 @@
+# Xbox2MIDI DJ — çalışma zamanı bağımlılıkları
+# (CoreMIDI çıkışı ctypes ile yerel olarak yapılır; derleme gerektiren paket yoktur.)
+PySide6-Essentials>=6.5
+pyobjc-core>=9.2
+pyobjc-framework-Cocoa>=9.2
+pyobjc-framework-GameController>=9.2
